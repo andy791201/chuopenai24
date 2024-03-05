@@ -8,8 +8,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 # Set OpenAI API details
 openai.api_type = "azure"
 openai.api_version = "2023-05-15"
-openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_base = os.getenv("OPENAI_API_BASE")
+openai.api_key = os.getenv("fc6cf19c87b34d6eab58646e9f139c03")
+openai.api_base = os.getenv("https://chuopenai24.openai.azure.com/")
 
 app = Flask(__name__)
 
