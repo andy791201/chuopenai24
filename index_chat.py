@@ -48,8 +48,8 @@ def aoai_chat_model(chat):
     return response_chat['choices'][0]['message']['content'].strip()
 
 # Initialize Line API with access token and channel secret
-line_bot_api = LineBotApi(os.getenv('LINE_ACCESS_TOKEN'))
-handler1 = WebhookHandler(os.getenv('LINE_CHANNEL_SECRET'))
+line_bot_api = LineBotApi(os.getenv('UBlA/6se9K/lnExO5UdNAs54P+CEjuCscYP+yq977f0EBtrBZmWQG02ao95vPWzuYGbk7SXWZ+d3C4Vu4mp1ecKKqsFE/HkGWxod6n+gtTY55UDlrmFLyjl2++5b/RDMrYPPtUa+dPACx7sYHUWa3wdB04t89/1O/w1cDnyilFU='))
+handler1 = WebhookHandler(os.getenv('0f78cc6f4ce7265e95310ad913e783c2'))
 
 # This route serves as a health check or landing page for the web app.
 @app.route("/")
